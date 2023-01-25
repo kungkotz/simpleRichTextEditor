@@ -1,11 +1,9 @@
-import Container from 'react-bootstrap/Container'
+import Container from "react-bootstrap/Container";
 
 const PageNotFound = () => {
 	return (
-		<Container className="py-3">
-			Sorry, that page could not be found.
-		</Container>
-	)
-}
+		<Container className="py-3">Sorry, that page could not be found.</Container>
+	);
+};
 
-export default PageNotFound
+export default PageNotFound;

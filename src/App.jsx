@@ -4,7 +4,6 @@ import Navigation from "./components/Navigation";
 import HomePage from "./pages/HomePage";
 import PageNotFound from "./pages/PageNotFound";
 import "./assets/scss/App.scss";
-import TextEditor from "./components/TextEditor";
 
 const App = () => {
 	return (

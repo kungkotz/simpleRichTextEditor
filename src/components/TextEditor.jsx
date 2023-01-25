@@ -30,19 +30,23 @@ const TextEditor = () => {
 
 	useEffect(() => {}, [data]);
 	return (
-		<Container className="py-3">
-			<div className="h3 text-center my-5">
+		<Container className="">
+			<div className=" ">
 				<ReactQuill
 					theme="snow"
 					value={data}
 					onChange={setData}
-					className="editor-input"
+					className=""
 					modules={modules}
 				/>
-
-				<div className="" dangerouslySetInnerHTML={{ __html: otherinfo }}></div>
+				<Button className="mb-5 mt-2" onClick={handleData}>
+					Save text
+				</Button>
+				<div
+					className="border w-100 h-100"
+					dangerouslySetInnerHTML={{ __html: otherinfo }}
+				></div>
 			</div>
-			<Button onClick={handleData}>Press me!</Button>
 		</Container>
 	);
 };
