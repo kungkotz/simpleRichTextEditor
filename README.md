@@ -1,5 +1,6 @@
 # simpleRichTextEditor
-## Deploy your own
+
+## How to
 ```bash
 npm install
 ```
